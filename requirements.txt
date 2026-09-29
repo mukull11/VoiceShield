@@ -1,8 +1,8 @@
 # Create requirements.txt
 requirements = """librosa==0.10.0
-torch==2.0.0
-torchaudio==2.0.0
-torchvision==0.15.0
+torch
+torchaudio
+torchvision
 scikit-learn==1.3.0
 pandas==2.0.0
 numpy==1.24.0

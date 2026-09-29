@@ -1,4 +1,5 @@
-librosa==0.10.0
+# Create requirements.txt
+requirements = """librosa==0.10.0
 torch==2.0.0
 torchaudio==2.0.0
 torchvision==0.15.0
@@ -12,3 +13,10 @@ streamlit==1.28.0
 scipy==1.11.0
 tqdm==4.66.0
 efficientnet-pytorch==0.7.1
+"""
+
+# Write to file
+with open('requirements.txt', 'w') as f:
+    f.write(requirements)
+
+print("✅ requirements.txt created!")
